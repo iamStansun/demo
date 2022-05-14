@@ -23,10 +23,9 @@ git branch -v 查看分支
 git checkout 分支名 切换分支
 git merge 分支名 把指定的分支合并到当前分支上
 ```
+### 合并分支冲突
 
-master
-hot fix 
-
+![Alt](./images/3.png)
 
 ## github
 操作步骤
@@ -50,4 +49,25 @@ $ git remote  add demo https://github.com/iamStansun/demo.git
 ```
 
 
-demo web 
+
+### ssh 登录
+
+用户文件夹下面创建 ssh 加密
+
+```
+ssh-keygen -t rsa -C   用户名
+<!-- 然后三个回车确认 -->
+
+```
+![Alt](./images/4.png)
+
+```js
+// 创建ssh完毕之后
+//  创建别名
+git remote  add demossh git@github.com:iamStansun/demo.git
+
+// 推送文件
+git push demossh master
+
+
+```

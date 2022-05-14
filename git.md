@@ -26,3 +26,25 @@ git merge 分支名 把指定的分支合并到当前分支上
 
 master
 hot fix 
+
+
+## github
+操作步骤
+
+1、 登录网址
+``` html
+https://github.com/
+```
+2、新建库
+![Alt](./images/1.png)
+3、引用链接
+![Alt](./images/2.png)
+```js 
+https://github.com/iamStansun/demo.git
+
+// 查看别名
+$ git remote -v
+// 创建别名
+$ git remote  add demo https://github.com/iamStansun/demo.git
+
+```

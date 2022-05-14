@@ -69,5 +69,7 @@ git remote  add demossh git@github.com:iamStansun/demo.git
 // 推送文件
 git push demossh master
 
+// 拉取文件
+git pull demossh master
 
 ```
